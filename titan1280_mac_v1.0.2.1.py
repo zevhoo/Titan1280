@@ -436,7 +436,7 @@ def mouse_callback(event, x, y, flags, param):
                             if not recording:
                                 # Start recording
                                 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-                                filename = f"thermal_{timestamp}.mp4"
+                                filename = f"{timestamp}_thermal.mp4"
                                 
                                 h, w = current_preview.shape[:2]
                                 video_writer = cv2.VideoWriter(
@@ -940,3 +940,4 @@ if recording and video_writer:
 
 cap.release()
 cv2.destroyAllWindows()
+
