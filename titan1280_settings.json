@@ -1,0 +1,12 @@
+{
+  "palette_index": 4,
+  "invert": true,
+  "auto_range": true,
+  "offset": 46202,
+  "range": 30801,
+  "show_histogram": false,
+  "sharpen_index": 1,
+  "show_cursor_readout": false,
+  "last_serial_port": "/dev/cu.usbmodem1203",
+  "last_baud_rate": 115200
+}
